@@ -25,7 +25,6 @@ public class Game {
             initMap();
             printMap();
             while (true) {
-
                 human();
                 printMap();
                 if (checkWin(DOT_X)) {
